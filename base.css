@@ -1,0 +1,128 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+   
+    padding: 10px 20px 0px;
+}
+.header {
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+
+    min-height: 150px;
+   
+}
+img{
+    height: 295px;
+    
+}
+
+.vet-1{
+    margin-left: 550px;
+    padding-bottom: 10px;
+    width: 400px;
+}
+.vet-2{
+    width: 400px;
+}
+.lista-procedimento-cirurgico{
+    margin-top: -288px;
+    min-height: 300px;
+    padding: 20px;
+}
+.texto-procedimento-cirurgico{
+    margin-top: -200px;
+    min-height: 142px;
+    padding: 20px;
+    display: table-caption;
+}
+.lista-de-cuidados{
+    padding: 10px;
+}
+li{
+    padding: 5px;
+}
+
+
+h2{
+    margin-bottom: -16px;
+}
+.banner-sobre{
+    height: 219px;
+    width: 990px;
+}
+
+.texto-quem-somos{
+    padding-top: 10px;
+}
+.banner-contato{
+    width: 990px;
+}
+.contato-telefone{
+    padding-bottom: 10px;
+    display: block;
+    padding-top: 10px;
+}
+
+iframe{
+    width: 987px;
+    height: 250px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.caxixa-de-msg{
+    padding-top: 10px;
+    display: block;
+}
+.botao{
+    display: block;
+}
+.banner-horario{
+    height: 219px;
+    width: 990px;
+}
+fieldset{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+table{
+width: 700px;
+text-align: center;
+margin-left: 120px;
+margin-top: 50px;
+}
+td, th{
+    padding: 10px;
+}
+thead{
+    color: #ffff;
+    background-color: #2f353a;
+}
+.tabela,th, td {
+    border: 1px solid black;
+}
